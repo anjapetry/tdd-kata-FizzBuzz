@@ -25,3 +25,8 @@ test("if input is 6, output is \"Fizz\"", () => {
     const input = 6;
     expect(fizzBuzz(input)).toBe("Fizz");
 })
+
+test("if input is 10, output is \"Buzz\"", () => {
+ const input = 10;
+ expect(fizzBuzz(input)).toBe("Buzz");
+});
