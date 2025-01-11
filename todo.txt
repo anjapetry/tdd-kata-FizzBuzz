@@ -2,4 +2,6 @@
 - if input is 2, output is 2
 - if input is 3, output is "Fizz"
 - if input is 5, output is "Buzz"
-
+- if input is 6, output is "Fizz"
+- if input is 10, output is "Buzz"
+- if input is 15, output is "FizzBuzz"
