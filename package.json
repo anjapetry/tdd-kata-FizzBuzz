@@ -1,0 +1,23 @@
+{
+  "name": "tdd-kata-fizzbuzz",
+  "version": "1.0.0",
+  "description": "TDD Kata FizzBuzz Test-driven development exercise in JavaScript.",
+  "homepage": "https://github.com/anjapetry/tdd-kata-FizzBuzz#readme",
+  "bugs": {
+    "url": "https://github.com/anjapetry/tdd-kata-FizzBuzz/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anjapetry/tdd-kata-FizzBuzz.git"
+  },
+  "license": "ISC",
+  "author": "captogether",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ."
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
