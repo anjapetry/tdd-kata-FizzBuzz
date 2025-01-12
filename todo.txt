@@ -5,3 +5,5 @@ v if input is 5, output is "Buzz"
 v if input is 6, output is "Fizz"
 v if input is 10, output is "Buzz"
 v if input is 15, output is "FizzBuzz"
+- write a program that prints the numbers from 1 to 100
+- main function console.logs 100 times
