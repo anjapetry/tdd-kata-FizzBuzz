@@ -21,12 +21,17 @@ test("if input is 5, output is 'Buzz'", () => {
     expect(fizzBuzz(input)).toBe("Buzz");
 });
 
-test("if input is 6, output is \"Fizz\"", () => {
+test('if input is 6, output is "Fizz"', () => {
     const input = 6;
     expect(fizzBuzz(input)).toBe("Fizz");
-})
+});
 
-test("if input is 10, output is \"Buzz\"", () => {
- const input = 10;
- expect(fizzBuzz(input)).toBe("Buzz");
+test('if input is 10, output is "Buzz"', () => {
+    const input = 10;
+    expect(fizzBuzz(input)).toBe("Buzz");
+});
+
+test('if input is 15, output is "FizzBuzz "', () => {
+    const input = 15;
+    expect(fizzBuzz(input)).toBe("FizzBuzz");
 });
