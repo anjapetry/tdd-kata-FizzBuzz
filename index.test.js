@@ -1,3 +1,5 @@
+const { spawn } = require("child_process");
+const path = require("path");
 const fizzBuzz = require("./index.js");
 
 test("if input is 1, output is 1", () => {
